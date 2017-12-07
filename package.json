@@ -1,0 +1,30 @@
+{
+  "name": "mapsocial-file-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon webpack; nodemon babel-node server.js --presets node6,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "firebase": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
