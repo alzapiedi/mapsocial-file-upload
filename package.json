@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "nodemon webpack; nodemon babel-node server.js --presets node6,stage-2",
+    "start": "webpack; babel-node server.js --presets node6,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
